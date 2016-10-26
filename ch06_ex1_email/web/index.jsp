@@ -1,5 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:import url="/includes/header.html" />
+<%@ include file="/includes/header.html" %>
 
 <h1>Join our email list</h1>
 <p>To join our email list, enter your name and
@@ -21,4 +21,4 @@
     <input type="submit" value="Join Now" class="margin_left">
 </form>
 
-<c:import url="/includes/footer.jsp" />
+<%@ include file="/includes/footer.jsp" %>
